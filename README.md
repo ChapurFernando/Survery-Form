@@ -9,7 +9,7 @@ Se trata de un formulario de encuesta creado con HTML y CSS.
 
 ## Ver ejemplo en vivo 📌
 
-- [https://chapurfernando.github.io/Survery-Form/](https://chapurfernando.github.io/Survery-Form/)
+- [https://chapurfernando.github.io/Survery-Form/index.html](https://chapurfernando.github.io/Survery-Form/index.html)
 
 ## Instalacion
 
