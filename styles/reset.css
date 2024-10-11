@@ -1,0 +1,48 @@
+/* Reset básico para eliminar márgenes, paddings, y otros estilos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Aseguramos que todos los elementos hereden correctamente el tamaño de fuente */
+html {
+  font-size: 100%; /* 1rem = 16px */
+}
+
+/* Establecemos un line-height básico para asegurar una mejor legibilidad */
+body {
+  line-height: 1.6;
+  font-family: sans-serif;
+  background-color: #fff; /* Puedes cambiar este valor según el diseño */
+}
+
+/* Removemos subrayado y color por defecto en los enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Eliminamos estilo por defecto de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Eliminamos bordes por defecto en imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/* Reseteamos los estilos por defecto de los inputs, botones, y textarea */
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Asegura que hereden el font-family y tamaño de texto */
+  border: none;
+  outline: none;
+  background: none;
+}
